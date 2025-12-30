@@ -1,7 +1,7 @@
 'use client';
 
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GraduationCap, Clock, Users, Award, CheckCircle, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
@@ -132,7 +132,6 @@ export default function TrainingPage() {
                                             <Badge className="bg-green-600">₹{program.price}</Badge>
                                         </div>
                                         <CardTitle className="text-2xl mb-2">{program.title}</CardTitle>
-                                        <CardDescription>{program.description}</CardDescription>
                                     </CardHeader>
                                     <CardContent>
                                         <div className="space-y-4">
