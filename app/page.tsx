@@ -1,19 +1,26 @@
-import { HeroSection, CourseCatalog, Testimonials, LearningPaths } from "@/components/sections";
+import { WebMobileDevelopment, DigitalMarketing } from "@/components/sections";
+// import { HeroSection, CourseCatalog, Testimonials, LearningPaths } from "@/components/sections";
 
 export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <HeroSection />
+      {/* <HeroSection /> */}
 
       {/* Course Catalog */}
-      <CourseCatalog />
+      {/* <CourseCatalog /> */}
 
       {/* Student Testimonials */}
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       {/* Learning Paths */}
-      <LearningPaths />
+      {/* <LearningPaths /> */}
+
+      {/* Web & Mobile Application Development */}
+      <WebMobileDevelopment />
+
+      {/* Digital Marketing */}
+      <DigitalMarketing />
 
       {/* Footer */}
       <footer className="border-t bg-white">
